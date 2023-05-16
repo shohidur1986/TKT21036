@@ -1,0 +1,7 @@
+# Command to run the container 
+
+sudo  docker run -d -it --name Exercise-1.3 devopsdockeruh/simple-web-service:ubuntu
+
+# Command to get inside the container with bash 
+
+sudo docker exec -it Exercise-1.3 bash
