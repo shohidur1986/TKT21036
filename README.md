@@ -3,6 +3,7 @@
 #1.5 Sizes of Images
 step 1: sudo docker pull devopsdocheruh/simple-web-service:alpine
 step 2: sudo docker images
+```
 
  shohidur@CourseVM:~$ sudo docker images
  REPOSITORY                          TAG           IMAGE ID       CREATED         SIZE
@@ -18,6 +19,8 @@ step 2: sudo docker images
  devopsdockeruh/simple-web-service   alpine        fd312adc88e0   2 years ago     15.7MB
  devopsdockeruh/pull_exercise        latest        d9854bc0e13a   4 years ago     75.3MB
  gaetan/dockercraft                  latest        59e40406abda   4 years ago     183MB
+ ```
+
 
 step 3: sudo docker run -d -it --namer exercise1.5 devopsdockeruh/simple-web-service:alpine
 
