@@ -1,6 +1,7 @@
 # TKT21036  DevOps with Docker
 
 #1.5 Sizes of Images
+
 step 1: sudo docker pull devopsdocheruh/simple-web-service:alpine
 
 step 2: sudo docker images
