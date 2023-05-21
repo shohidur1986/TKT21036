@@ -37,8 +37,8 @@ step:5 cat /usr/src/app/text.log
  step 2: Enter in ther docker hub web site, and search for the devospdockeruh/pull_exercise
 
  step 3: Give me the password: basics
-           ```
-
+ 
+```
          You found the correct password. Secret message is:
          "This is the secret message"
 ```
