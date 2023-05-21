@@ -3,6 +3,7 @@
 #1.5 Sizes of Images
 step 1: sudo docker pull devopsdocheruh/simple-web-service:alpine
 step 2: sudo docker images
+
 shohidur@CourseVM:~$ sudo docker images
 REPOSITORY                          TAG           IMAGE ID       CREATED         SIZE
 shohidur/todo/1.0                   latest        57b589e51a6f   3 days ago      262MB
