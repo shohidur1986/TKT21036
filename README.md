@@ -29,3 +29,16 @@ step 3: sudo docker run -d -it --namer exercise1.5 devopsdockeruh/simple-web-ser
 step 4: sudo docker exec -it exercise1.5 sh
 
 step:5 cat /usr/src/app/text.log
+
+### EXERCISE 1.6: HELLO DOCKER HUB
+
+ step 1: sudo docker run -it devopsdockeruh/pull_exercise
+
+ step 2: Enter in ther docker hub web site, and search for the devospdockeruh/pull_exercise
+
+ step 3: Give me the password: basics
+           ```
+
+         You found the correct password. Secret message is:
+         "This is the secret message"
+```
