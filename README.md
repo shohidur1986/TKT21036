@@ -56,3 +56,9 @@ Step 02: Runing the com4ntainer with persistent file:
 docker run -v ${pwd}/tmp/log.txt:/usr/app/logs.txt devopsdockeruh/simple-web-service
 ```
 
+#Exercise 1.10
+
+'''
+docker run -d -it -p 8080:8080 --name port-mapping  devopsdockeruh/simple-web-service
+
+''''
