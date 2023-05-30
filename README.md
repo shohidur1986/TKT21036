@@ -42,3 +42,17 @@ step:5 cat /usr/src/app/text.log
          You found the correct password. Secret message is:
          "This is the secret message"
 ```
+
+#Exercise 1.9 
+
+Step 01: Creating file to be mounted inside container
+
+```
+ touch /tmp/log.txt
+```
+Step 02: Runing the com4ntainer with persistent file:
+
+```
+docker run -v ${pwd}/tmp/log.txt:/usr/app/logs.txt devopsdockeruh/simple-web-service
+```
+
